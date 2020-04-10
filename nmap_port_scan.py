@@ -2,6 +2,8 @@
 import subprocess
 import os
 import sys
+import time
+import tempfile
 import re
 
 refile = open ('portResut.txt', 'w', encoding='utf-8')
